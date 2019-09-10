@@ -5,18 +5,12 @@
 # text_mdf = Стирсь сёрмадсь сёрма ялганцты. 
 # text_sms = Tõt nijdd ǩeeʹrjti ǩeeʹrj taaurõššʼses.
 # text_fi = Se tyttö kirjoitti kirjeen kaverilleen.
-"<Se>"
-	"se" Det Sg Nom
-"<tyttö>"
-	"tyttö" N Sg Nom @X
-"<kirjutti>"
-	"kirjuttua" V Act Ind Prt Sg3 @+FMAINV
-"<kirjazen>"
-	"kirjaine" N Sg Acc @X
-"<dovarishalles>"
-	"dovarishalles" N Sg All PxSg3
-"<.>"
-	"." CLB
+1	Se	se	DET	Det	Sg|Nom	2	det	_	_
+2	tyttö	tyttö	NOUN	N	Sg|Nom	3	nsubj	_	_
+3	kirjutti	kirjuttua	VERB	V	Act|Ind|Prt|Sg3	0	root	_	_
+4	kirjazen	kirjaine	NOUN	N	Sg|Acc	3	obj	_	_
+5	dovarishalles	dovarishalles	NOUN	N	Sg|All|PxSg3	3	obl	_	_
+6	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = LM_brat_2018:2
 # aannotation="yes" # paragID="1" # pgNo="1" # sentID="2" # storyID="brat"
