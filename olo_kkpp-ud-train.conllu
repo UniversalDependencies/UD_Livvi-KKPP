@@ -1,0 +1,220 @@
+# sent_id = cairo.cicling.corpus.liv.1
+# text = Se tyttö kirjutti kirjazen dovarišalles.
+# text_en = The girl wrote a letter to her friend.
+1	Se	Se	PRON	PRON	Case=Nom|Number=Sing|PronType=Dem	2	det	_	_
+2	tyttö	tyttö	NOUN	NOUN	Case=Nom|Number=Sing	3	nsubj	_	_
+3	kirjutti	kirjuttua	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	kirjazen	kirjaine	NOUN	NOUN	Case=Acc|Number=Sing	3	obj	_	_
+5	dovarišalles	dovariša	NOUN	NOUN	Case=All|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+
+# sent_id = cairo.cicling.corpus.liv.2
+# text = Smietin, ku vihmuu.
+# text_en = I think that it is raining.
+1	Smietin	Smiettie	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_
+3	ku	ku	SCONJ	SCONJ	_	4	mark	_	_
+4	vihmuu	vihmuo	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No
+
+# sent_id = cairo.cicling.corpus.liv.3
+# text = Häi oppi heittiä kurindan da juondan.
+# text_en = He tried to stop smoking and drinking.
+1	Häi	Häi	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	oppi	oppie	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	heittiä	heittiä	VERB	VERB	VerbForm=Inf	2	xcomp	_	_
+4	kurindan	kurindu	NOUN	NOUN	Case=Acc|Number=Sing	3	obj	_	_
+5	da	da	CCONJ	CCONJ	_	6	cc	_	_
+6	juondan	juondu	NOUN	NOUN	Case=Acc|Number=Sing	4	conj	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+
+# sent_id = cairo.cicling.corpus.liv.4
+# text = Tahtotgo mennä?
+# text_en = Do you want to go?
+1	Tahtotgo	Tahtuo	VERB	VERB	Clitic=Ko|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	mennä	mennä	VERB	VERB	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	xcomp	_	SpaceAfter=No
+3	?	?	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+
+# sent_id = cairo.cicling.corpus.liv.5
+# text = Avua ikkun, Sam!
+# text_en = Sam, open the window!
+1	Avua	avata	VERB	VERB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
+2	ikkun	ikkun	NOUN	NOUN	Case=Acc|Number=Sing	1	obj	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	4	punct	_	_
+4	Sam	Sam	PROPN	PROPN	Case=Nom|Number=Sing	1	vocative	_	SpaceAfter=No
+5	!	!	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No
+
+# sent_id = cairo.cicling.corpus.liv.6
+# text = Häi pani ukon pezemäh mašinua.
+# text_en = She made her husband wash the car.
+1	Häi	Häi	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	pani	paita	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	ukon	ukko	NOUN	NOUN	Case=Acc|Number=Sing	4	nsubj	_	_
+4	pezemäh	pestä	VERB	VERB	VerbForm=Inf	2	xcomp:ds	_	_
+5	mašinua	mašin	NOUN	NOUN	Case=Par|Number=Sing	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+
+# sent_id = cairo.cicling.corpus.liv.7
+# text = Peteran susiedu kruassi aijan.
+# text_en = Peter’s neighbor painted the fence red.
+1	Peteran	Peter	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+2	susiedu	susiedu	NOUN	NOUN	Case=Nom|Number=Sing	3	nsubj	_	_
+3	kruassi	kruassie	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	aijan	aidu	NOUN	NOUN	Case=Acc|Number=Sing	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+
+# sent_id = cairo.cicling.corpus.liv.8
+# text = Minun tuatto on kylmyverizembi migu sinun.
+# text_en = My dad is cooler than yours.
+1	Minun	Minun	PRON	PRON	Case=Abe|Number=Plur|PronType=Prs	2	nmod:poss	_	_
+2	tuatto	tuatto	NOUN	NOUN	Case=Nom|Number=Sing	4	nsubj:cop	_	_
+3	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+4	kylmyverizembi	kylmyverini	ADJ	ADJ	Case=Nom|Degree=Cmp|Number=Sing	0	root	_	_
+5	migu	migu	SCONJ	SCONJ	_	6	mark	_	_
+6	sinun	sinun	PRON	PRON	Case=Abe|Number=Plur|PronType=Prs	4	advcl	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+
+# sent_id = cairo.cicling.corpus.liv.9
+# text = Mary voitti bronzumedalin, Peter hobjumedalin da Jane kuldumedalin.
+# text_en = Mary won bronze , Peter silver , and Jane gold .
+1	Mary	Mary	PROPN	PROPN	Case=Nom|Number=Sing	2	nsubj	_	_
+2	voitti	voittua	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	bronzumedalin	bronzu#medali	NOUN	NOUN	Case=Acc|Number=Sing	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	5	punct	_	_
+5	Peter	Peter	PROPN	PROPN	Case=Nom|Number=Sing	1	conj	_	_
+6	hobjumedalin	hobju#medali	NOUN	NOUN	Case=Acc|Number=Sing	5	orphan	_	_
+7	da	da	CCONJ	CCONJ	_	8	cc	_	_
+8	Jane	Jane	PROPN	PROPN	Case=Nom|Number=Sing	1	conj	_	_
+9	kuldumedalin	kuldu#medali	NOUN	NOUN	Case=Acc|Number=Sing	8	orphan	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+
+# sent_id = cairo.cicling.corpus.liv.10
+# text = Ongo Iguazu suuri vai pieni mua?
+# text_en = Is Iguazu a big or a small country ?
+1	Ongo	Olla	AUX	AUX	Clitic=Ko|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	Iguazu	Iguazu	PROPN	PROPN	Case=Nom|Number=Sing	6	nsubj:cop	_	_
+3	suuri	suuri	ADJ	ADJ	Case=Acc|Number=Sing	6	amod	_	_
+4	vai	vai	CCONJ	CCONJ	_	5	cc	_	_
+5	pieni	pieni	ADJ	ADJ	Case=Acc|Number=Sing	3	conj	_	_
+6	mua	mua	NOUN	NOUN	Case=Acc|Number=Sing	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+
+# sent_id = cairo.cicling.corpus.liv.11
+# text = Ei voidu vallita Peter Smithua, eigo Mary Brownii.
+# text_en = Neither Peter Smith nor Mary Brown could be selected .
+1	Ei	ei	AUX	AUX	Mood=Ind|Person=0|Tense=Pres	3	aux	_	_
+2	voidu	voija	AUX	AUX	Connegative=Yes|Mood=Ind|Number=Plur|Tense=Past|Voice=Pass	3	aux	_	_
+3	vallita	vallita	VERB	VERB	VerbForm=Inf	0	root	_	_
+4	Peter	Peter	PROPN	PROPN	Case=Nom|Number=Sing	3	obj	_	_
+5	Smithua	Smith	PROPN	PROPN	Case=Par|Number=Sing	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	8	punct	_	_
+7	eigo	ja#ei	CCONJ	CCONJ	Number=Plur|Person=3|Polarity=Neg	8	cc	_	_
+8	Mary	Mary	PROPN	PROPN	Case=Nom|Number=Sing	5	conj	_	_
+9	Brownii	Brown	PROPN	PROPN	Case=Par|Number=Sing	8	flat:name	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+
+# sent_id = cairo.cicling.corpus.liv.12
+# text = Heil ei ole ovvostustu sit, ken sen kirjutti.
+# text_en = They have no idea who wrote it .
+1	Heil	Hyö	PRON	PRON	Case=All|Number=Plur|Person=3|PronType=Prs	0	root	_	_
+2	ei	ei	AUX	AUX	Mood=Ind|Number=Sing|Person=3	1	aux	_	_
+3	ole	olla	AUX	AUX	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop:own	_	_
+4	ovvostustu	ovvostus	NOUN	NOUN	Case=Par|Number=Sing	1	nsubj:cop	_	_
+5	sit	sit	PRON	PRON	Case=Par|Number=Sing	1	obl	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	9	punct	_	_
+7	ken	ken	PRON	PRON	Case=Nom|Number=Sing	9	nsubj	_	PronType=Interr
+8	sen	se	PRON	PRON	Case=Gen|Number=Sing|PronType=Dem	9	obj	_	_
+9	kirjutti	kirjuttua	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No
+
+# sent_id = cairo.cicling.corpus.liv.13
+# text = Midäbo kačot?
+# text_en = What are you looking at?
+1	Midäbo	Mi	PRON	PRON	Case=Par|Number=Sing	2	obj	_	PronType=Interr
+2	kačot	kaččuo	VERB	VERB	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+
+# sent_id = cairo.cicling.corpus.liv.14
+# text = Konzubo duumaičet voit tulla?
+# text_en = When do you think you can come?
+1	Konzubo	Konzubo	ADV	ADV	_	2	advmod	_	_
+2	duumaičet	duumaija	VERB	VERB	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	voit	voija	AUX	AUX	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+4	tulla	tulla	VERB	VERB	Connegative=Yes|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	SpaceAfter=No
+5	?	?	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+
+# sent_id = cairo.cicling.corpus.liv.15
+# text = Häi osti mašinan, ga hänen velleh pyörän.
+# text_en = He bought a car but his brother just a bike .
+1	Häi	Häi	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	osti	ostua	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	mašinan	mašin	NOUN	NOUN	Case=Acc|Number=Sing	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	7	punct	_	_
+5	ga	ga	CCONJ	CCONJ	_	6	cc	_	_
+6	hänen	häi	PRON	PRON	Case=Gen|Number=Sing|Person=3|PronType=Prs	7	nmod:poss	_	_
+7	velleh	velli	NOUN	NOUN	Case=Ill|Number=Sing	2	conj	_	_
+8	pyörän	pyöry	NOUN	NOUN	Case=Acc|Number=Sing	7	orphan	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+
+# sent_id = cairo.cicling.corpus.liv.16
+# text = Peter da Mari sevättihes da lähtiettih pertispäi.
+# text_en = Peter and Mary hugged each other and then left the room .
+1	Peter	Peter	PROPN	PROPN	Case=Nom|Number=Sing	4	nsubj	_	_
+2	da	da	CCONJ	CCONJ	_	3	cc	_	_
+3	Mari	Mari	PROPN	PROPN	Case=Nom|Number=Sing	1	conj	_	_
+4	sevättihes	sevätä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Reflex=Yes|Tense=Past|VerbForm=Fin	0	root	_	_
+5	da	da	CCONJ	CCONJ	_	6	cc	_	_
+6	lähtiettih	lähtie	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+7	pertispäi	perti	NOUN	NOUN	Case=Ela|Number=Plur	6	obl	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+
+# sent_id = cairo.cicling.corpus.liv.17
+# text = Hänel olis pidänyh olla prichoskua luadimas, ga häi erähien syylöin periä ei voinnuh sinä piän.
+# text_en = She should have been doing her hair but for some reason she wouldn't that day.
+1	Hänel	Häi	PRON	PRON	Case=Abl|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
+2	olis	olla	AUX	AUX	Connegative=Yes|Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+3	pidänyh	pidiä	AUX	AUX	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	aux	_	_
+4	olla	olla	VERB	VERB	Connegative=Yes|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	prichoskua	prichosku	NOUN	NOUN	Case=Par|Number=Sing	6	obj	_	_
+6	luadimas	luadie	VERB	VERB	Case=Ine|VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	14	punct	_	_
+8	ga	ga	CCONJ	CCONJ	_	9	cc	_	_
+9	häi	häi	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+10	erähien	eräs	ADJ	ADJ	Case=Gen|Number=Plur	11	amod	_	_
+11	syylöin	syy	NOUN	NOUN	Case=Gen|Number=Plur	14	obl	_	_
+12	periä	periä	ADP	ADP	AdpType=Post	11	case	_	_
+13	ei	ei	AUX	AUX	Number=Sing|Person=3|Polarity=Neg	14	aux	_	_
+14	voinnuh	voija	VERB	VERB	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
+15	sinä	sinä	PRON	PRON	Case=Ess|Number=Sing|PronType=Dem	16	det	_	_
+16	piän	päivy	NOUN	NOUN	Case=Ess|Number=Sing	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+
+# sent_id = cairo.cicling.corpus.liv.18
+# text = En ehtinyh hänele jälles, sendäh ku häi juoksi ylen terväh.
+# text_en = I was n't able to keep up , because he ran too fast .
+1	En	Ei	AUX	AUX	Number=Sing|Person=1|Polarity=Neg	2	aux	_	_
+2	ehtinyh	ehtie	VERB	VERB	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	hänele	häi	PRON	PRON	Case=All|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
+4	jälles	jälles	ADV	ADV	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	2	punct	_	_
+6	sendäh	sendäh	ADV	ADV	_	7	compound	_	_
+7	ku	ku	SCONJ	SCONJ	_	9	obl	_	_
+8	häi	häi	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	juoksi	juosta	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+10	ylen	ylen	ADV	ADV	_	11	advmod	_	_
+11	terväh	terväh	ADV	ADV	_	9	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+
+# sent_id = cairo.cicling.corpus.liv.19
+# text = Tämä on kirjaine Peteras da se tuodih egläi.
+# text_en = This letter is from Peter and it was delivered yesterday .
+1	Tämä	Tämä	PRON	PRON	Case=Nom|Number=Sing|PronType=Dem	3	nsubj:cop	_	_
+2	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+3	kirjaine	kirjaine	NOUN	NOUN	Case=Acc|Number=Sing	0	root	_	_
+4	Peteras	Peter	PROPN	PROPN	Case=Ela|Number=Sing	3	obl	_	_
+5	da	da	CCONJ	CCONJ	_	6	cc	_	_
+6	se	se	PRON	PRON	Case=Nom|Number=Sing	7	nsubj	_	_
+7	tuodih	tuvva	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+8	egläi	egläi	ADV	ADV	_	7	advmod	_	SpaceAfter=No|PronType=Temp
+9	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+
