@@ -18,16 +18,12 @@
 # text_mdf = Арьсян, пизем туй.
 # text_sms = Joordam što âbrr.
 # text_fi = Luulen että sataa.
-"<Smietin>"
-	"smiettie" V Act Ind Prs Sg1 @+FMAINV
-"<,>"
-	"," CLB
-"<ku>"
-	"ku" CS @CVP
-"<vihmuu>"
-	"vihmuo" V Act Ind Prs Sg3 @+FMAINV
-"<.>"
-	"." CLB
+1	Smietin	smiettie	VERB	V	Act|Ind|Prs|Sg1|@+FMAINV	0	root	_	_
+2	,	,	PUNCT	CLB	_	4	punct	_	_
+3	ku	ku	SCONJ	CS	@CVP	4	mark	_	_
+4	vihmuu	vihmuo	VERB	V	Act|Ind|Prs|Sg3	1	ccomp	_	_
+5	.	.	PUNCT	CLB	_	1	punct	_	_
+
 
 # sent_id = LM_brat_2018:3
 # aannotation="yes" # paragID="1" # pgNo="1" # sentID="3" # storyID="brat"
@@ -35,20 +31,13 @@
 # text_mdf = Сон тяряфтсь кадомс таргаманц и симоманц.
 # text_sms = Son ǩiččlõõddi looppted tääbbaǩ puälddmõõžž da veeiʹn juukkmõõžž.
 # text_fi = Hän yritti lopettaa tupakoinnin ja juomisen.
-"<Häi>"
-	"häi" Pron Pers Sg3 Nom @X
-"<oppi>"
-	"oppie" V Act Ind Prt Sg3 @+FMAINV
-"<heittiä>"
-	"heittiä" V Inf @X
-"<kurindan>"
-	"kurindu" N Sg Acc @X
-"<da>"
-	"da" CC @CNP
-"<juondan>"
-	"juondu" N Sg Acc @X
-"<.>"
-	"." CLB
+1	Häi	häi	PRON	_	Pers|Sg3|Nom	2	nsubj	_	_
+2	oppi	oppie	VERB	_	Act|Ind|Prt|Sg3	0	root	_	_
+3	heittiä	heittiä	VERB	_	Inf	2	xcomp	_	_
+4	kurindan	kurindu	NOUN	_	Sg|Acc	3	obj	_	_
+5	da	da	CCONJ	_	_	6	cc	_	_
+6	juondan	juondu	NOUN	_	Sg|Acc	4	conj	_	_
+7	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = LM_brat_2018:4
 # aannotation="yes" # paragID="1" # pgNo="1" # sentID="4" # storyID="brat"
@@ -56,12 +45,9 @@
 # text_mdf = Молелексолеть?
 # text_sms = Haaʹlääk-a mõõnnâd?
 # text_fi = Haluatko mennä?
-"<Tahtotgo>"
-	"tahtuo" V Act Ind Prs Sg2 Qst @+FMAINV
-"<mennä>"
-	"mennä" V Act Ind Prs ConNeg Pl3 @+FMAINV
-"<?>"
-	"?" CLB @X
+1	Tahtotgo	tahtuo	VERB	_	Act|Ind|Prs|Sg2|Qst	0	root	_	_
+2	mennä	mennä	VERB	_	Act|Ind|Prs|ConNeg|Pl3	1	xcomp	_	_
+3	?	?	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = LM_brat_2018:5
 # aannotation="yes" # paragID="1" # pgNo="1" # sentID="5" # storyID="brat"
@@ -69,16 +55,11 @@
 # text_mdf = Панчк-ка вальмять, Самсон!
 # text_sms = Ääʹved ikkân Sam!
 # text_fi = Avaa ikkuna Sam!
-"<Avua>"
-	"Avua" V TV Imprt Sg2
-"<ikkun>"
-	"ikkun" N Sg Acc @HNOUN
-"<,>"
-	"," CLB
-"<Sam>"
-	"Sam" N Prop Sg Nom
-"<!>"
-	"!" CLB @X
+1	Avua	Avua	VERB	_	TV|Imprt|Sg2	0	root	_	_
+2	ikkun	ikkun	NOUN	_	Sg|Acc	1	obj	_	_
+3	,	,	PUNCT	CLB	_	4	punct	_	_
+4	Sam	Sam	PROPN	_	Prop|Sg|Nom	1	vocative	_	_
+5	!	!	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = LM_brat_2018:6
 # aannotation="yes" # paragID="1" # pgNo="1" # sentID="6" # storyID="brat"
@@ -86,18 +67,12 @@
 # text_mdf = Сон кошардозе мирденц машинань штама.
 # text_sms = Son piiji kuõjâs põõssâd aaut.
 # text_fi = Hän pani miehensä pesemään auton.
-"<Häi>"
-	"häi" Pron Pers Sg3 Nom @X
-"<pani>"
-	"panna" V Act Ind Prt Sg3 @+FMAINV
-"<ukon>"
-	"ukko" N Sg Acc @X
-"<pezemäh>"
-	"pestä" V Der/mA Inf Ill @X
-"<mašinua>"
-	"mašin" N Sg Par @X
-"<.>"
-	"." CLB
+1	Häi	häi	PRON	_	Pers|Sg3|Nom	2	nsubj	_	_
+2	pani	panna	VERB	_	Act|Ind|Prt|Sg3	0	root	_	_
+3	ukon	ukko	NOUN	_	Sg|Acc	2	obj	_	_
+4	pezemäh	pestä	VERB	_	Der/mA|Inf|Ill	2	xcomp	_	_
+5	mašinua	mašin	NOUN	_	Sg|Par	4	obj	_	_
+6	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = LM_brat_2018:7
 # aannotation="yes" # paragID="1" # pgNo="1" # sentID="7" # storyID="brat"
@@ -105,16 +80,12 @@
 # text_mdf = Петять шабрац архтозе перяфксть.
 # text_sms = Peter räʹjjlaž kälkkii čuâl.
 # text_fi = Peterin naapuri maalasi aidan.
-"<Peteran>"
-	"Peteran" N Prop Sg Gen
-"<susiedu>"
-	"susiedu" N Sg Nom @X
-"<kruassi>"
-	"kruassie" V Act Ind Prt Sg3 @+FMAINV
-"<aijan>"
-	"äijän" Adv
-"<.>"
-	"." CLB
+1	Peteran	Peteran	PROPN	_	Prop|Sg|Gen	2	nmod:poss	_	_
+2	susiedu	susiedu	NOUN	_	Sg|Nom	3	nsubj	_	_
+3	kruassi	kruassie	VERB	_	Act|Ind|Prt|Sg3|@+FMAINV	0	root	_	_
+4	aijan	äijän	NOUN	_	Sg|Acc	3	obj	_	_
+5	.	.	PUNCT	CLB	_	3	punct	_	_
+
 
 # sent_id = LM_brat_2018:8
 # aannotation="yes" # paragID="1" # pgNo="1" # sentID="8" # storyID="brat"
@@ -122,20 +93,13 @@
 # text_mdf = Алязе тонь алядот крутой.
 # text_sms = Eččad lij luândstes lääʹđesmiõllsab ǥu eččan.
 # text_fi = Isäni on viileämpi kuin sinun.
-"<Minun>"
-	"minä" Pron Pers Pers Sg1 Gen @X
-"<tuatto>"
-	"tuatto" N Sg Nom @X
-"<on>"
-	"olla" V Act Ind Prs Sg3 @+FMAINV
-"<kylmyverizembi>"
-	"kylmyverizembi" ?inf
-"<migu>"
-	"migu" Interj
-"<sinun>"
-	"sinä" Pron Pers Sg2 Gen @X
-"<.>"
-	"." CLB
+1	Minun	minä	PRON	_	Pers|Sg1|Gen	2	det	_	_
+2	tuatto	tuatto	NOUN	_	Sg|Nom	4	nsubj	_	_
+3	on	olla	AUX	_	Act|Ind|Prs|Sg3	4	cop	_	_
+4	kylmyverizembi	kylmyverizembi	ADJ	_	Sg|Nom	0	root	_	_
+5	migu	migu	SCONJ	_	_	6	mark	_	_
+6	sinun	sinä	PRON	_	Pers|Sg2|Gen	4	ccomp	_	_
+7	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = LM_brat_2018:9
 # aannotation="yes" # paragID="1" # pgNo="1" # sentID="9" # storyID="brat"
@@ -143,26 +107,16 @@
 # text_mdf = Марья сявозе бронзать, Петя – сияннеть, а Джейн – зрняннеть.
 # text_sms = Mary vuäǯǯai proons, Peter siilb da Jane kååʹll.
 # text_fi = Mary voitti pronssin, Peter hopean ja Jane kultaa.
-"<Mary>"
-	"Mary" N Prop Sg Nom
-"<voitti>"
-	"voittua" V Act Ind Prt Sg3 @+FMAINV
-"<bronzumedalin>"
-	"bronzumedalin" N Sg Acc
-"<,>"
-	"," CLB
-"<Peter>"
-	"Peter" N Prop Sg Nom
-"<hobjumedalin>"
-	"hobjumedalin" N Sg Acc
-"<da>"
-	"da" CC @CNP
-"<Jane>"
-	"Jane" N Prop Sg Nom
-"<kuldumedalin>"
-	"kuldumedalin" N Sg Acc
-"<.>"
-	"." CLB
+1	Mary	Mary	PROPN	_	Prop|Sg|Nom	2	nsubj	_	_
+2	voitti	voittua	VERB	_	Act|Ind|Prt|Sg3	0	root	_	_
+3	bronzumedalin	bronzumedalin	NOUN	_	Sg|Acc	2	obj	_	_
+4	,	,	PUNCT	CLB	_	5	punct	_	_
+5	Peter	Peter	PROPN	_	Prop|Sg|Nom	2	conj	_	_
+6	hobjumedalin	hobjumedalin	NOUN	_	Sg|Acc	5	orphan	_	_
+7	da	da	CC	_	_	8	cc	_	_
+8	Jane	Jane	PROPN	_	Prop|Sg|Nom	2	conj	_	_
+9	kuldumedalin	kuldumedalin	NOUN	_	Sg|Acc	8	orphan	_	_
+10	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = LM_brat_2018:10
 # aannotation="yes" # paragID="1" # pgNo="1" # sentID="10" # storyID="brat"
@@ -170,20 +124,13 @@
 # text_mdf = Игуазсь оцю или ёмла мастор?
 # text_sms = Lij-a Iguazu jõnn avi uʹcc jânnam?
 # text_fi = Onko Iguazu iso vai pieni maa?
-"<Ongo>"
-	"olla" V Act Ind Prs Sg3 Qst @+FMAINV
-"<Iguazu>"
-	"Iguazu" N Prop Sg Nom
-"<suuri>"
-	"suuri" A Sg Nom @X
-"<vai>"
-	"vai" Adv
-"<pieni>"
-	"pieni" A Sg Nom @X
-"<mua>"
-	"mua" N Sg Nom @X
-"<?>"
-	"?" CLB @X
+1	Ongo	olla	VERB	_	Act|Ind|Prs|Sg3|Qst	6	cop	_	_
+2	Iguazu	Iguazu	PROPN	_	Prop|Sg|Nom	6	nsubj	_	_
+3	suuri	suuri	ADJ	_	Sg|Nom	6	amod	_	_
+4	vai	vai	CCONJ	_	_	5	cc	_	_
+5	pieni	pieni	ADJ	_	Sg|Nom	3	conj	_	_
+6	mua	mua	NOUN	_	Sg|Nom	0	root	_	_
+7	?	?	PUNCT	CLB	_	6	punct	_	_
 
 # sent_id = LM_brat_2018:11
 # aannotation="yes" # paragID="1" # pgNo="1" # sentID="11" # storyID="brat"
@@ -191,26 +138,16 @@
 # text_mdf = Аф Петя Смит, аф Марья Браун ашесть кочкав.
 # text_sms = Nuʹtt kuâđđje vaʹlljeeǩâni Peter Smith diǥu še Mary Brown.
 # text_fi = Ei voitu valita Peter Smithiä eikä Mary Brownia.
-"<Ei>"
-	"ei" V-Aux Neg Pl3
-"<voidu>"
-	"voija" V Act Ind Prt ConNeg Pl3 @+FMAINV
-"<vallita>"
-	"vallita" V Act Ind Prs ConNeg Pl3 @+FMAINV
-"<Peter>"
-	"Peter" N Prop Sg Nom
-"<Smithua>"
-	"Smithua" N Prop Sg Par
-"<,>"
-	"," CLB
-"<eigo>"
-	"ei" V-Aux Neg Pl3 Qst
-"<Mary>"
-	"Mary" N Prop Sg Nom
-"<Brownii>"
-	"Brownii" N Prop Sg Par
-"<.>"
-	"." CLB
+1	Ei	ei	AUX	_	Neg|Pl3	3	aux:neg	_	_
+2	voidu	voija	AUX	_	Act|Ind|Prt|ConNeg|Pl3	3	aux	_	_
+3	vallita	vallita	VERB	_	Act|Ind|Prs|ConNeg|Pl3	0	root	_	_
+4	Peter	Peter	PROPN	_	Prop|Sg|Nom	3	obj	_	_
+5	Smithua	Smithua	PROPN	_	Prop|Sg|Par	4	flat	_	_
+6	,	,	PUNCT	CLB	_	8	punct	_	_
+7	eigo	ei	CCONJ	_	Neg|Pl3|Qst	8	cc	_	_
+8	Mary	Mary	PROPN	_	Prop|Sg|Nom	3	conj	_	_
+9	Brownii	Brownii	PROPN	_	Prop|Sg|Par	8	flat	_	_
+10	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = LM_brat_2018:12
 # aannotation="yes" # paragID="1" # pgNo="1" # sentID="12" # storyID="brat"
