@@ -68,7 +68,7 @@
 1	Häi	häi	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	GTtags=Pers,Sg3,Nom
 2	pani	panna	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Prt	0	root	_	GTtags=Act,Ind,Prt,Sg3
 3	ukon	ukko	NOUN	_	Case=Acc|Number=Sing	2	obj	_	GTtags=Sg,Acc
-4	pezemäh	pestä	VERB	_	Case=Ill|Derivation=mA|VerbForm=Inf	2	xcomp	_	GTtags=Der/mA,Inf,Ill
+4	pezemäh	pestä	VERB	_	Case=Ill|Derivation=Ma|VerbForm=Inf	2	xcomp	_	GTtags=Der/mA,Inf,Ill
 5	mašinua	mašin	NOUN	_	Case=Par|Number=Sing	4	obj	_	GTtags=Sg,Par|SpaceAfter=No
 6	.	.	PUNCT	CLB	_	2	punct	_	_
 
@@ -121,7 +121,7 @@
 # text_mdf = Игуазсь оцю или ёмла мастор?
 # text_sms = Lij-a Iguazu jõnn avi uʹcc jânnam?
 # text_fi = Onko Iguazu iso vai pieni maa?
-1	Ongo	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Qst|Tense=Pres	6	cop	_	GTtags=Act,Ind,Prs,Sg3,Qst
+1	Ongo	olla	AUX	V	Clitic=Go|Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	cop	_	GTtags=Act,Ind,Prs,Sg3,Qst
 2	Iguazu	Iguazu	PROPN	N	Case=Nom|Number=Sing	6	nsubj	_	GTtags=Prop,Sg,Nom
 3	suuri	suuri	ADJ	A	Case=Nom|Number=Sing	6	amod	_	GTtags=Sg,Nom
 4	vai	vai	CCONJ	CC	_	5	cc	_	_
