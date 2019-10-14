@@ -249,30 +249,18 @@
 # text_mdf = Мондейне сон ашезь сатов, сяс мес ласьксь пяк вишкста.
 # text_sms = Jiõm pâsttam seuʹrrjed suu urččmõõžž ǥu son leäi samai jåʹttel.
 # text_fi = En pystynyt seuraamaan koska hän juoksi liian nopeasti.
-"<En>"
-	"ei" V-Aux Neg Sg1
-"<ehtinyh>"
-	"ehtie" V Act Ind Prt ConNeg @+FMAINV
-"<hänele>"
-	"häi" Pron Pers Sg3 All @X
-"<jälles>"
-	"jälles" Adv
-"<,>"
-	"," CLB
-"<sendäh>"
-	"sendäh" Adv
-"<ku>"
-	"ku" CS
-"<häi>"
-	"häi" Pron Pers Sg3 Nom @X
-"<juoksi>"
-	"juosta" V Act Ind Prt Sg3 @+FMAINV
-"<ylen>"
-	"ylen" Adv
-"<terväh>"
-	"terväh" Adv
-"<.>"
-	"." CLB
+1	En	ei	AUX	_	Neg|Sg1	2	aux:neg	_	_
+2	ehtinyh	ehtie	VERB	_	Act|Ind|Prt|ConNeg	0	root	_	_
+3	hänele	häi	PRON	_	Pers|Sg3|All	2	obl	_	_
+4	jälles	jälles	ADV	_	_	2	advmod	_	_
+5	,	,	PUNCT	CLB	_	9	punct	_	_
+6	sendäh	sendäh	ADV	_	_	9	mark	_	_
+7	ku	ku	CS	_	_	6	fixed	_	_
+8	häi	häi	PRON	_	Pers|Sg3|Nom	9	nsubj	_	_
+9	juoksi	juosta	VERB	_	Act|Ind|Prt|Sg3	2	ccomp	_	_
+10	ylen	ylen	ADV	_	_	11	advmod	_	_
+11	terväh	terväh	ADV	_	_	9	advmod	_	_
+12	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = LM_brat_2018:19
 # aannotation="yes" # paragID="1" # pgNo="1" # sentID="19" # storyID="brat"
@@ -280,24 +268,16 @@
 # text_mdf = Тя сёрмась Петянь эзда, и кандозь сонь исяк.
 # text_sms = Tät jåhtta tuåimtum ǩeʹrjj lij Peter vuõltteem.
 # text_fi = Tämä on kirje Peteriltä ja se toimitettiin eilen
-"<Tämä>"
-	"tämä" Pron Dem Sg Nom @X
-"<on>"
-	"olla" V Act Ind Prs Sg3 @+FMAINV
-"<kirjaine>"
-	"kirjaine" N Sg Nom @X
-"<Peteras>"
-	"Peteras" ?inf
-"<da>"
-	"da" CC
-"<se>"
-	"se" Pron Sg Acc
-"<tuodih>"
-	"tuvva" V Act Ind Prt Pl3 @+FMAINV
-"<egläi>"
-	"egläi" Adv Temp @<ADVL
-"<.>"
-	"." CLB
+1	Tämä	tämä	PRON	_	Dem|Sg|Nom	3	nsubj	_	_
+2	on	olla	AUX	_	Act|Ind|Prs|Sg3	3	cop	_	_
+3	kirjaine	kirjaine	NOUN	_	Sg|Nom	0	root	_	_
+4	Peteras	Peteras	PROPN	N	Prop|Sg|Ine	3	nmod	_	_
+5	da	da	CCONJ	_	_	7	cc	_	_
+6	se	se	PRON	_	Sg|Acc	7	obj	_	_
+7	tuodih	tuvva	VERB	_	Act|Ind|Prt|Pl3	3	conj	_	_
+8	egläi	egläi	ADV	_	Temp	7	advmod	_	_
+9	.	.	PUNCT	CLB	_	3	punct	_	_
+
 
 # sent_id = LM_brat_2018:20
 # aannotation="yes" # paragID="1" # pgNo="1" # sentID="20" # storyID="brat"
