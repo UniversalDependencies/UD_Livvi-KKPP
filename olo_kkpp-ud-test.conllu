@@ -43,7 +43,7 @@
 # text_mdf = Молелексолеть?
 # text_sms = Haaʹlääk-a mõõnnâd?
 # text_fi = Haluatko mennä?
-1	Tahtotgo	tahtuo	VERB	_	Mood=Ind|Number=Sing|Person=2|Qst|Tense=Pres	0	root	_	GTtags=Act,Ind,Prs,Sg2,Qst
+1	Tahtotgo	tahtuo	VERB	_	Clitic=Go|Mood=Ind|Number=Sing|Person=2|Tense=Pres	0	root	_	GTtags=Act,Ind,Prs,Sg2,Qst
 2	mennä	mennä	VERB	_	Connegative=Yes|Mood=Ind|Number=Plur|Person=3|Tense=Pres	1	xcomp	_	GTtags=Act,Ind,Prs,ConNeg,Pl3|SpaceAfter=No
 3	?	?	PUNCT	CLB	_	1	punct	_	_
 
