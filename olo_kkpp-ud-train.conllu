@@ -121,7 +121,7 @@
 # text_mdf = Игуазсь оцю или ёмла мастор?
 # text_sms = Lij-a Iguazu jõnn avi uʹcc jânnam?
 # text_fi = Onko Iguazu iso vai pieni maa?
-1	Ongo	Olla	AUX	AUX	Clitic=Go|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+1	Ongo	olla	AUX	AUX	Clitic=Go|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 2	Iguazu	Iguazu	PROPN	PROPN	Case=Nom|Number=Sing	6	nsubj:cop	_	_
 3	suuri	suuri	ADJ	ADJ	Case=Acc|Number=Sing	6	amod	_	_
 4	vai	vai	CCONJ	CCONJ	_	5	cc	_	_
@@ -246,7 +246,7 @@
 # text_mdf = Мондейне сон ашезь сатов, сяс мес ласьксь пяк вишкста.
 # text_sms = Jiõm pâsttam seuʹrrjed suu urččmõõžž ǥu son leäi samai jåʹttel.
 # text_fi = En pystynyt seuraamaan koska hän juoksi liian nopeasti.
-1	En	Ei	AUX	AUX	Number=Sing|Person=1|Polarity=Neg	2	aux	_	_
+1	En	ei	AUX	AUX	Number=Sing|Person=1|Polarity=Neg	2	aux	_	_
 2	ehtinyh	ehtie	VERB	VERB	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	hänele	häi	PRON	PRON	Case=All|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
 4	jälles	jälles	ADV	ADV	_	2	advmod	_	SpaceAfter=No
