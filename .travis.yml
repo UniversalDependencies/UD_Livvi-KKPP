@@ -1,0 +1,15 @@
+dist: bionic
+language: python
+before_install:
+    - wget https://github.com/universaldependencies/tools/archive/master.zip
+    - unzip master.zip
+install:
+    - pip install regex
+script:
+    - python3 tools-master/validate.py --lang olo olo_kkpp-ud-train.conllu
+    - python3 tools-master/validate.py --lang olo olo_kkpp-ud-test.conllu
+notifications:
+    irc:
+        channels:
+            - "chat.freenode.net#omorfi"
+        on_failure: change
