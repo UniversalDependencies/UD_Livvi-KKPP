@@ -31,7 +31,7 @@ the Finnish text in
 [http://ilazki.thinkgeek.co.uk/brat/#/uralic/fin](http://ilazki.thinkgeek.co.uk/brat/#/uralic/fin),
 these can be found in the training set.
 
-## References
+# References
 
 * Markianova, Ludmila. [Karjalan
   kielioppi](https://opastajat.net/opastus/opastus.html), Periodika, (2002).
@@ -73,7 +73,19 @@ number = "1",
 }
 ```
 
+# Cite as
 
+If you use the treebank, please cite the UDW 2019 paper:
+
+```
+@inproceedings{pirinen2019building,
+  title={Building minority dependency treebanks, dictionaries and computational grammars at the same time—an experiment in Karelian treebanking},
+  author={Pirinen, Tommi A},
+  booktitle={Proceedings of the Third Workshop on Universal Dependencies (UDW, SyntaxFest 2019)},
+  pages={132--136},
+  year={2019}
+}
+```
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
