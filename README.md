@@ -87,6 +87,13 @@ If you use the treebank, please cite the UDW 2019 paper:
 }
 ```
 
+
+# Changelog
+
+* 2019-11-15 v2.5
+  * Initial release in Universal Dependencies.
+
+
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.5
