@@ -251,7 +251,7 @@
 2	ruadonerolois	ruadonero	NOUN	NOUN	Case=Ela|Number=Plur	5	obl	_	_
 3	nuorižon	nuorižo	NOUN	NOUN	Case=Gen|Number=Sing	5	obl	_	_
 4	hyväkse	hyvä	ADP	ADP	Case=Tra|Number=Sing	3	case	_	_
-5	saneltah	sanella	VERB	VERB	Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	saneltah	sanella	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice	0	root	_	_
 6	Karjalan	Karjala	PROPN	PROPN	Case=Gen|Number=Sing	7	nmod:poss	_	_
 7	Rahvahan	Rahvas	NOUN	NOUN	Case=Gen|Number=Sing	8	nmod:poss	_	_
 8	Liiton	Liitto	NOUN	NOUN	Case=Gen|Number=Sing	9	nmod:poss	_	_
