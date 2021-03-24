@@ -1057,7 +1057,7 @@
 17	kuulluh	kuulla	VERB	VERB	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	11	parataxis	_	SpaceAfter=No
 18	,	,	PUNCT	PUNCT	_	20	punct	_	_
 19	emmogo	ei	AUX	AUX	Clitic=Ko|Number=Plur|Person=1|Polarity=Neg	20	aux	_	_
-20	teidänyh	tiedeä	X	X	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	17	conj	_	SpaceAfter=No
+20	teidänyh	tiedeä	VERB	X	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	17	conj	_	SpaceAfter=No
 21	"	"	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No
 22	.	.	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No
 
