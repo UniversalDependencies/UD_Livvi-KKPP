@@ -251,7 +251,7 @@
 2	ruadonerolois	ruadonero	NOUN	NOUN	Case=Ela|Number=Plur	5	obl	_	_
 3	nuorižon	nuorižo	NOUN	NOUN	Case=Gen|Number=Sing	5	obl	_	_
 4	hyväkse	hyvä	ADP	ADP	Case=Tra|Number=Sing	3	case	_	_
-5	saneltah	sanella	VERB	VERB	Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	saneltah	sanella	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	Karjalan	Karjala	PROPN	PROPN	Case=Gen|Number=Sing	7	nmod:poss	_	_
 7	Rahvahan	Rahvas	NOUN	NOUN	Case=Gen|Number=Sing	8	nmod:poss	_	_
 8	Liiton	Liitto	NOUN	NOUN	Case=Gen|Number=Sing	9	nmod:poss	_	_
@@ -1057,7 +1057,7 @@
 17	kuulluh	kuulla	VERB	VERB	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	11	parataxis	_	SpaceAfter=No
 18	,	,	PUNCT	PUNCT	_	20	punct	_	_
 19	emmogo	ei	AUX	AUX	Clitic=Ko|Number=Plur|Person=1|Polarity=Neg	20	aux	_	_
-20	teidänyh	tiedeä	X	X	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	17	conj	_	SpaceAfter=No
+20	teidänyh	tiedeä	VERB	X	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	17	conj	_	SpaceAfter=No
 21	"	"	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No
 22	.	.	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No
 
