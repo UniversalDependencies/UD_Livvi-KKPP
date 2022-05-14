@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_Livvi-KKPP:
-commit 70265ae8a80f770353735a51bb954d7ed9914e10
+commit 6178cddda9019daed42e0e59a0a0bbb61d58e318
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 13 09:39:30 2021 +0200
+Date:   Wed Nov 3 16:44:45 2021 +0100
 Size: counted 1632 of 1632 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.97961251308383.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,10 +25,16 @@ Udapi: found 55 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 1632 words.
 Genres: found 3 out of 17 known.
 validate.py --lang olo --max-err=10 UD_Livvi-KKPP/olo_kkpp-ud-test.conllu
-*** PASSED ***
+[Line 242 Sent vepkar-1820.16 Node 17]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
+[Line 243 Sent vepkar-1820.16 Node 18]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
+[Line 244 Sent vepkar-1820.16 Node 19]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
+[Line 245 Sent vepkar-1820.16 Node 20]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
+Morpho errors: 4
+*** FAILED *** with 4 errors
+Exit code: 1
 validate.py --lang olo --max-err=10 UD_Livvi-KKPP/olo_kkpp-ud-train.conllu
 *** PASSED ***
-Validity: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
 (weight=0.0769230769230769) * (score{genres}=0.176470588235294) = 0.0135746606334842
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
@@ -37,6 +43,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.823529411764706) = 0.0633484162895928
 (weight=0.307692307692308) * (score{udapi}=0.662990196078431) = 0.203996983408748
 (weight=0.0769230769230769) * (score{udeprels}=0.810810810810811) = 0.0623700623700624
-(TOTAL score=0.515830306840165) * (availability=1) * (validity=1) = 0.515830306840165
-STARS = 2.5
-UD_Livvi-KKPP	0.515830306840165	2.5
+(TOTAL score=0.515830306840165) * (availability=1) * (validity=0.01) = 0.00515830306840164
+STARS = 0
+UD_Livvi-KKPP	0.00515830306840164	0
