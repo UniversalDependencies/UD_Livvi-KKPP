@@ -10,7 +10,7 @@
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
     <test><sentences>106</sentences><tokens>1488</tokens><words>1488</words><fused>0</fused></test>
   </size>
-  <lemmas unique="561" /><!-- ,, ., olla, da, ", sanuo, häi, saari, :, ei, –, arbaitus, toine, sit, dai -->
+  <lemmas unique="558" /><!-- ,, ., olla, da, ", sanuo, häi, saari, :, ei, –, arbaitus, toine, sit, dai -->
   <forms unique="755" /><!-- ,, ., da, ", oli, :, –, ei, on, häi, sit, dai, ?, ”, a -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -28,10 +28,10 @@
     <tag name="PUNCT">351</tag><!-- ,, ., ", :, –, ?, ”, “, ;, ! -->
     <tag name="SCONJ">20</tag><!-- ku, konzu, kui, ga, migu -->
     <tag name="VERB">257</tag><!-- sanuo, olla, lähtie, tulla, sanella, kuulla, mennä, pidiä, tieteä, kyzyö -->
-    <tag name="X">6</tag><!-- d’engaa, piduhus, pučči, ttiteatr, u, y -->
+    <tag name="X">6</tag><!-- _, d’engaa, piduhus, pučči -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="51">
+  <feats unique="52">
     <feat name="AdpType" value="Post" upos="ADP">3</feat><!-- mugah, periä, sijah -->
     <feat name="Case" value="Abe" upos="PRON">3</feat><!-- Minun, sidä, sinun -->
     <feat name="Case" value="Abl" upos="ADJ,NOUN,PRON">3</feat><!-- Hänel, kanzallizil, silmäl -->
@@ -77,6 +77,7 @@
     <feat name="Reflex" value="Yes" upos="PRON,VERB">3</feat><!-- iče, sevättihes -->
     <feat name="Tense" value="Past" upos="AUX,VERB">127</feat><!-- oli, sanoi, sanottih, istui, kraassi, kuulittogo, kuulluh, lähtiettih, saneltih, tiezittö -->
     <feat name="Tense" value="Pres" upos="AUX,NOUN,VERB">123</feat><!-- on, olen, pietäh, rodieu, sanoo, voibi, kyzyy, ole, ollah, sanou -->
+    <feat name="Typo" value="Yes" upos="NOUN">1</feat><!-- Čičiliušku-t -->
     <feat name="VerbForm" value="Fin" upos="AUX,NOUN,VERB">248</feat><!-- oli, on, sanoi, olen, rodieu, sanoo, kuulimo, kuulittogo, pietäh, sanottih -->
     <feat name="VerbForm" value="Ger" upos="AUX,VERB">6</feat><!-- Tansijes, kuunneltes, mennes, olles, pajattajes, pannes -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">35</feat><!-- arbuamah, ellendämäh, kuundelemah, lähtie, ostua, pidää, saamah, sanomah, sanuo, arbaittua -->
@@ -95,7 +96,7 @@
     <dep name="aux">35</dep>
     <dep name="case">13</dep>
     <dep name="cc">71</dep>
-    <dep name="ccomp">12</dep>
+    <dep name="ccomp">13</dep>
     <dep name="compound">3</dep>
     <dep name="compound:nn">2</dep>
     <dep name="conj">118</dep>
@@ -110,17 +111,17 @@
     <dep name="mark">19</dep>
     <dep name="nmod">12</dep>
     <dep name="nmod:poss">88</dep>
-    <dep name="nsubj">119</dep>
+    <dep name="nsubj">118</dep>
     <dep name="nsubj:cop">26</dep>
     <dep name="nummod">18</dep>
-    <dep name="obj">98</dep>
+    <dep name="obj">99</dep>
     <dep name="obl">151</dep>
     <dep name="orphan">15</dep>
     <dep name="parataxis">47</dep>
     <dep name="punct">351</dep>
     <dep name="root">125</dep>
     <dep name="vocative">1</dep>
-    <dep name="xcomp">15</dep>
+    <dep name="xcomp">14</dep>
     <dep name="xcomp:ds">2</dep>
   </deps>
 </treebank>
