@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 13e6b709a8bc643c3f902800321a7beda46feb8d
+commit 04abe686385f14a9a6f68784bd723a6b60ded594
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 13 22:03:41 2022 +0100
+Date:   Tue May 9 00:14:39 2023 +0200
 Evaluating the following revision of UD_Livvi-KKPP:
-commit d4c39b996eeaf5bb897a61bcdd2911002c1496a2
+commit 8d736fcaf6f55dce524b3f158847f3fca75f4884
+Merge: fbeb53f b854ebc
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat May 14 14:57:43 2022 +0200
 Size: counted 1632 of 1632 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.97961251308383.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -24,19 +24,11 @@ Udapi:
 Udapi: found 55 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 1632 words.
 Genres: found 3 out of 17 known.
-validate.py --lang olo --max-err=10 UD_Livvi-KKPP/olo_kkpp-ud-test.conllu
-[Line 103 Sent vepkar-1820.8 Node 10]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [9, 13]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 242 Sent vepkar-1820.16 Node 17]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
-[Line 243 Sent vepkar-1820.16 Node 18]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
-[Line 244 Sent vepkar-1820.16 Node 19]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
-[Line 245 Sent vepkar-1820.16 Node 20]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
-Morpho errors: 4
-Syntax errors: 1
-*** FAILED *** with 5 errors
-Exit code: 1
-validate.py --lang olo --max-err=10 UD_Livvi-KKPP/olo_kkpp-ud-train.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang olo --max-err=10 UD_Livvi-KKPP/olo_kkpp-ud-test.conllu
 *** PASSED ***
-Validity: 0.01
+/net/work/people/zeman/unidep/tools/validate.py --lang olo --max-err=10 UD_Livvi-KKPP/olo_kkpp-ud-train.conllu
+*** PASSED ***
+Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
 (weight=0.0769230769230769) * (score{genres}=0.176470588235294) = 0.0135746606334842
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
@@ -45,6 +37,6 @@ Validity: 0.01
 (weight=0.0769230769230769) * (score{tags}=0.823529411764706) = 0.0633484162895928
 (weight=0.307692307692308) * (score{udapi}=0.662990196078431) = 0.203996983408748
 (weight=0.0769230769230769) * (score{udeprels}=0.810810810810811) = 0.0623700623700624
-(TOTAL score=0.515830306840165) * (availability=1) * (validity=0.01) = 0.00515830306840164
-STARS = 0
-UD_Livvi-KKPP	0.00515830306840164	0
+(TOTAL score=0.515830306840165) * (availability=1) * (validity=1) = 0.515830306840165
+STARS = 2.5
+UD_Livvi-KKPP	0.515830306840165	2.5
