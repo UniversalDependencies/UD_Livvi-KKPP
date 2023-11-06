@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Livvi-KKPP:
-commit 8d736fcaf6f55dce524b3f158847f3fca75f4884
-Merge: fbeb53f b854ebc
+commit feb22a0891a6664e0091f5edd8a7d40f0ed0f126
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue May 9 11:30:13 2023 +0200
 Size: counted 1632 of 1632 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.97961251308383.
 Size: maximum value 13.815511 is for 1000000 words or more.
