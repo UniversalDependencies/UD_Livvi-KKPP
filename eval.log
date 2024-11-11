@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Livvi-KKPP:
-commit 763d95a0ee40ad4f106f29d462003a2c68e9ad36
+commit 4d605bcabc37feeaca876ee232e3ff9e04fd7d35
+Merge: 8f836f5 22d6cab
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 12:38:49 2023 +0100
 Size: counted 1632 of 1632 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.97961251308383.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -15,13 +15,13 @@ Split: Did not find at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 14 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 1058 out of 1632 total words have one or more features.
+Features: 1060 out of 1632 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL         55
-Udapi: found 55 bugs.
+               TOTAL         54
+Udapi: found 54 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 1632 words.
 Genres: found 3 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang olo --max-err=10 UD_Livvi-KKPP/olo_kkpp-ud-test.conllu
@@ -35,8 +35,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.0709067181392808) = 0.0181812097793028
 (weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.823529411764706) = 0.0633484162895928
-(weight=0.307692307692308) * (score{udapi}=0.662990196078431) = 0.203996983408748
+(weight=0.307692307692308) * (score{udapi}=0.669117647058823) = 0.205882352941176
 (weight=0.0769230769230769) * (score{udeprels}=0.810810810810811) = 0.0623700623700624
-(TOTAL score=0.515830306840165) * (availability=1) * (validity=1) = 0.515830306840165
+(TOTAL score=0.517715676372593) * (availability=1) * (validity=1) = 0.517715676372593
 STARS = 2.5
-UD_Livvi-KKPP	0.515830306840165	2.5
+UD_Livvi-KKPP	0.517715676372593	2.5
