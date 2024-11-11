@@ -304,10 +304,10 @@
 11	-videos’užietoin	-videos’užieto	NOUN	NOUN	Case=Gen|Number=Sing	12	nmod:poss	_	_
 12	kilbu	kilbu	NOUN	NOUN	Case=Acc|Number=Sing	9	nmod	_	_
 13	da	da	CCONJ	CCONJ	_	14	cc	_	_
-14	Karelija	Karelija	PROPN	PROPN	Case=Nom|Number=Sing	9	conj	_	_
-15	–	–	PUNCT	PUNCT	_	18	punct	_	_
-16	eto	eto	ADJ	ADJ	_	17	amod	_	_
-17	mi	mi	PRON	PRON	Case=Nom|Number=Sing	18	det	_	PronType=Interr
+14	Karelija	Karelija	X	PROPN	Foreign=Yes	18	compound:nn	_	_
+15	–	–	X	PUNCT	Foreign=Yes	14	flat:foreign	_	_
+16	eto	eto	X	ADJ	Foreign=Yes	14	flat:foreign	_	_
+17	mi	mi	X	PRON	Foreign=Yes	14	flat:foreign	_	_
 18	-karjalan	-karjal	NOUN	NOUN	Case=Gen|Number=Sing	23	nmod:poss	_	SpaceAfter=No
 19	,	,	PUNCT	PUNCT	_	20	punct	_	_
 20	vepsän	vepsä	NOUN	NOUN	Case=Gen|Number=Sing	18	conj	_	_
