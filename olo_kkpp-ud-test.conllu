@@ -113,8 +113,8 @@
 20	da	da	CCONJ	CCONJ	_	21	cc	_	_
 21	kižattih	kižata	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	14	conj	_	_
 22	meijän	myö	PRON	PRON	Case=Gen|Number=Plur|Person=1|PronType=Prs	23	nmod:poss	_	_
-23	ezi-ižien	ezi-ižä	NOUN	NOUN	Case=Gen|Number=Plur	21	obl	_	_
-24	tabah	taba	NOUN	NOUN	Case=Ill|Number=Sing	23	case	_	SpaceAfter=No
+23	ezi-ižien	ezi-ižä	NOUN	NOUN	Case=Gen|Number=Plur	24	nmod	_	_
+24	tabah	taba	NOUN	NOUN	Case=Ill|Number=Sing	21	obl	_	SpaceAfter=No
 25	.	.	PUNCT	PUNCT	_	21	punct	_	SpaceAfter=No
 
 # sent_id = vepkar-1820.9
