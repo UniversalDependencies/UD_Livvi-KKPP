@@ -18,7 +18,7 @@
     <tag name="ADJ">100</tag><!-- oma, karjalaine, suuri, eri, mustu, semmoine, toine, uuzi, valgei, 30. -->
     <tag name="ADP">11</tag><!-- piäs, algajen, avul, hantuzis, hyvä, ker, keskes, mugah, periä, sijah -->
     <tag name="ADV">104</tag><!-- sit, ainos, gu, muga, ylen, hyvin, jo, ližäkse, sen, taaste -->
-    <tag name="AUX">70</tag><!-- olla, ei, voija, pidiä, rotie, suaha -->
+    <tag name="AUX">69</tag><!-- olla, ei, voija, pidiä, rotie -->
     <tag name="CCONJ">71</tag><!-- da, dai, a, ga, vai, ja#ei -->
     <tag name="INTJ">4</tag><!-- a, ga, nu -->
     <tag name="NOUN">431</tag><!-- saari, arbaitus, vojennoi, virsta, päivy, tverinkarjalaine, festivuali, kieli, kodi, sarvi -->
@@ -27,7 +27,7 @@
     <tag name="PROPN">81</tag><!-- Tver, Karjal, Anus, Mustonen, Peter, Petroskoi, Suomi, Karjala, Tapio, Anuksenlinna -->
     <tag name="PUNCT">350</tag><!-- ,, ., ", :, –, ?, ”, “, ;, ! -->
     <tag name="SCONJ">20</tag><!-- ku, konzu, kui, ga, migu -->
-    <tag name="VERB">257</tag><!-- sanuo, olla, lähtie, tulla, sanella, kuulla, mennä, pidiä, tieteä, kyzyö -->
+    <tag name="VERB">258</tag><!-- sanuo, olla, lähtie, tulla, sanella, kuulla, mennä, pidiä, tieteä, kyzyö -->
     <tag name="X">10</tag><!-- _, Karelija, d’engaa, eto, mi, piduhus, pučči, – -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -60,7 +60,7 @@
     <feat name="Mood" value="Imp" upos="VERB">3</feat><!-- Avua, Kuunelkaa, mennä -->
     <feat name="Mood" value="Ind" upos="AUX,NOUN,VERB">246</feat><!-- oli, on, sanoi, olen, pietäh, rodieu, sanoo, kuulimo, kuulittogo, sanottih -->
     <feat name="Mood" value="Pot" upos="AUX,VERB">2</feat><!-- unohtannet, voinoo -->
-    <feat name="Number" value="Plur" upos="ADJ,AUX,CCONJ,NOUN,NUM,PRON,PROPN,VERB,X">278</feat><!-- vojennoit, tverinkarjalazien, arbaituksii, festivualin, kuulimo, kuulittogo, sanottih, tiezimö, tiezittö, arbaitukset -->
+    <feat name="Number" value="Plur" upos="ADJ,AUX,CCONJ,NOUN,NUM,PRON,PROPN,VERB,X">285</feat><!-- vojennoit, tverinkarjalazien, pietäh, arbaituksii, festivualin, kuulimo, kuulittogo, sanottih, tiezimö, tiezittö -->
     <feat name="Number" value="Sing" upos="ADJ,ADP,AUX,NOUN,NUM,PRON,PROPN,VERB,X">698</feat><!-- oli, on, häi, ei, Tverin, toine, tämän, virstaa, saari, sanoi -->
     <feat name="Number[psor]" value="Sing" upos="ADJ,NOUN">2</feat><!-- dovarišalles, enimilleh -->
     <feat name="NumType" value="Card" upos="NUM">13</feat><!-- kolme, kaksi, seičče, kolmet, yksi -->
@@ -68,7 +68,7 @@
     <feat name="Person" value="0" upos="AUX">1</feat><!-- Ei -->
     <feat name="Person" value="1" upos="AUX,PRON,VERB">36</feat><!-- minun, olen, minul, kuulimo, näimö, tiezimö, emmogo, sanon, En, Minä -->
     <feat name="Person" value="2" upos="AUX,PRON,VERB">20</feat><!-- kuulittogo, tiezittö, Avua, Kuunelkaa, Nai, Tahtotgo, Tiezittögo, duumaičet, kačot, kuulitto -->
-    <feat name="Person" value="3" upos="AUX,CCONJ,NOUN,PRON,VERB">229</feat><!-- oli, on, ei, häi, sanoi, rodieu, sanoo, sanottih, voibi, hyö -->
+    <feat name="Person" value="3" upos="AUX,CCONJ,NOUN,PRON,VERB">237</feat><!-- oli, on, ei, häi, sanoi, pietäh, rodieu, sanoo, sanottih, voibi -->
     <feat name="Person[psor]" value="3" upos="ADJ,NOUN">2</feat><!-- dovarišalles, enimilleh -->
     <feat name="Polarity" value="Neg" upos="AUX,CCONJ,PRON">18</feat><!-- ei, emmogo, En, eigo, nimidä -->
     <feat name="PronType" value="Dem" upos="PRON">25</feat><!-- tämän, se, tämä, net, Niilöin, Tädä, niidy, nämmis, sen, sil -->
@@ -79,12 +79,12 @@
     <feat name="Tense" value="Past" upos="AUX,VERB">127</feat><!-- oli, sanoi, sanottih, istui, kraassi, kuulittogo, kuulluh, lähtiettih, saneltih, tiezittö -->
     <feat name="Tense" value="Pres" upos="AUX,NOUN,VERB">123</feat><!-- on, olen, pietäh, rodieu, sanoo, voibi, kyzyy, ole, ollah, sanou -->
     <feat name="Typo" value="Yes" upos="NOUN">1</feat><!-- Čičiliušku-t -->
-    <feat name="VerbForm" value="Fin" upos="AUX,NOUN,VERB">248</feat><!-- oli, on, sanoi, olen, rodieu, sanoo, kuulimo, kuulittogo, pietäh, sanottih -->
+    <feat name="VerbForm" value="Fin" upos="AUX,NOUN,VERB">250</feat><!-- oli, on, sanoi, olen, pietäh, rodieu, sanoo, kuulimo, kuulittogo, sanottih -->
     <feat name="VerbForm" value="Ger" upos="AUX,VERB">6</feat><!-- Tansijes, kuunneltes, mennes, olles, pajattajes, pannes -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">35</feat><!-- arbuamah, ellendämäh, kuundelemah, lähtie, ostua, pidää, saamah, sanomah, sanuo, arbaittua -->
-    <feat name="VerbForm" value="Part" upos="AUX,VERB">12</feat><!-- käynnyh, tundiettu, järjestäjänny, kehitynnyh, koskijoi, mainittuloin, mennyt, sanottuu, suannuh, tulluot -->
+    <feat name="VerbForm" value="Part" upos="VERB">12</feat><!-- käynnyh, tundiettu, järjestäjänny, kehitynnyh, koskijoi, mainittuloin, mennyt, sanottuu, suannuh, tulluot -->
     <feat name="Voice" value="Act" upos="AUX,NOUN,VERB">237</feat><!-- oli, on, sanoi, olen, rodieu, kuulimo, kuulittogo, sanoo, sanottih, tiezimö -->
-    <feat name="Voice" value="Pass" upos="AUX,VERB">13</feat><!-- pietäh, tundiettu, ečitäh, järjestetäh, kannatetah, kuunneltes, mainittuloin, sanottuu, voidu -->
+    <feat name="Voice" value="Pass" upos="VERB">5</feat><!-- tundiettu, kuunneltes, mainittuloin, sanottuu -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="37">
@@ -95,7 +95,7 @@
     <dep name="amod">80</dep>
     <dep name="appos">8</dep>
     <dep name="aux">35</dep>
-    <dep name="case">13</dep>
+    <dep name="case">12</dep>
     <dep name="cc">71</dep>
     <dep name="ccomp">13</dep>
     <dep name="compound">3</dep>
@@ -111,7 +111,7 @@
     <dep name="flat:name">11</dep>
     <dep name="goeswith">3</dep>
     <dep name="mark">19</dep>
-    <dep name="nmod">12</dep>
+    <dep name="nmod">13</dep>
     <dep name="nmod:poss">88</dep>
     <dep name="nsubj">118</dep>
     <dep name="nsubj:cop">26</dep>
