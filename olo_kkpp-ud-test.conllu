@@ -21,7 +21,7 @@
 # sent_id = vepkar-1820.3
 # text = Pruazniekku pietäh kezäkuul Anuksenlinnas.
 1	Pruazniekku	pruazniekku	NOUN	NOUN	Case=Nom|Number=Sing	2	nsubj	_	_
-2	pietäh	pidiä	VERB	VERB	Mood=Ind|Tense=Pres|Voice=Pass	0	root	_	_
+2	pietäh	pidiä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	kezäkuul	kezäkuu	NOUN	NOUN	Case=Ade|Number=Sing	2	obl	_	_
 4	Anuksenlinnas	Anuksenlinna	PROPN	PROPN	Case=Ela|Number=Sing	2	obl	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
@@ -46,7 +46,7 @@
 1	Tämän	tämä	PRON	PRON	Case=Gen|Number=Sing|PronType=Dem	2	det	_	_
 2	festivualin	festivuali	NOUN	NOUN	Case=Ins|Number=Plur	4	obl	_	_
 3	hantuzis	hantuzis	ADV	ADV	_	4	advmod	_	_
-4	järjestetäh	järjestiä	VERB	VERB	Mood=Ind|Tense=Pres|Voice=Pass	0	root	_	_
+4	järjestetäh	järjestiä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	kaksi	kaksi	NUM	NUM	Case=Ins|Number=Plur|NumType=Card	6	nummod	_	_
 6	matkua	matka	NOUN	NOUN	Case=Par|Number=Sing	4	obj	_	_
 7	Petroskoispäi	Petroskoi	PROPN	PROPN	Case=Ela|Number=Plur	4	obl	_	_
@@ -113,8 +113,8 @@
 20	da	da	CCONJ	CCONJ	_	21	cc	_	_
 21	kižattih	kižata	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	14	conj	_	_
 22	meijän	myö	PRON	PRON	Case=Gen|Number=Plur|Person=1|PronType=Prs	23	nmod:poss	_	_
-23	ezi-ižien	ezi-ižä	NOUN	NOUN	Case=Gen|Number=Plur	21	obl	_	_
-24	tabah	taba	NOUN	NOUN	Case=Ill|Number=Sing	23	case	_	SpaceAfter=No
+23	ezi-ižien	ezi-ižä	NOUN	NOUN	Case=Gen|Number=Plur	24	nmod	_	_
+24	tabah	taba	NOUN	NOUN	Case=Ill|Number=Sing	21	obl	_	SpaceAfter=No
 25	.	.	PUNCT	PUNCT	_	21	punct	_	SpaceAfter=No
 
 # sent_id = vepkar-1820.9
@@ -520,7 +520,7 @@
 1	Opastujii	opastui	NOUN	NOUN	Case=Par|Number=Plur	4	nsubj	_	_
 2	da	da	CCONJ	CCONJ	_	3	cc	_	_
 3	tutkijoi	tutkija	NOUN	NOUN	Case=Par|Number=Plur	1	conj	_	_
-4	kannatetah	kannattua	VERB	VERB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	kannatetah	kannattua	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	stipendieloil	stipendii	NOUN	NOUN	Case=Ade|Number=Plur	4	obl	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
 
@@ -584,7 +584,7 @@
 2	Tverin	Tver	PROPN	PROPN	Case=Gen|Number=Sing	3	nmod:poss	_	_
 3	Karjalan	Karjal	PROPN	PROPN	Case=Gen|Number=Sing	4	nmod:poss	_	_
 4	dieloloi	dielo	NOUN	NOUN	Case=Par|Number=Plur	5	obj	_	_
-5	pietäh	pidiä	VERB	VERB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	pietäh	pidiä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	silmäl	silmy	NOUN	NOUN	Case=Abl|Number=Sing	5	fixed	_	_
 7	Suomes	Suomi	PROPN	PROPN	Case=Ine|Number=Sing	5	obl	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
@@ -606,7 +606,7 @@
 # sent_id = vepkar-2316.15
 # text = Turistumatkoi pietäh kerran vuvves kezäl.
 1	Turistumatkoi	turistumatku	NOUN	NOUN	Case=Par|Number=Plur	2	obj	_	_
-2	pietäh	pidiä	VERB	VERB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+2	pietäh	pidiä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	kerran	kerran	ADV	ADV	_	2	advmod	_	_
 4	vuvves	vuozi	NOUN	NOUN	Case=Ine|Number=Sing	3	nmod	_	_
 5	kezäl	kezä	NOUN	NOUN	Case=Ade|Number=Sing	2	obl	_	SpaceAfter=No
@@ -724,7 +724,7 @@
 # sent_id = vepkar-1559.4
 # text = Sit ečitäh, ečitäh saaran sanojaa, ni kus ei löytä.
 1	Sit	sit	ADV	ADV	_	2	advmod	_	_
-2	ečitäh	eččie	VERB	VERB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+2	ečitäh	eččie	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	4	punct	_	_
 4	ečitäh	eččie	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
 5	saaran	saari	NOUN	NOUN	Case=Gen|Number=Sing	6	nmod:poss	_	_
@@ -1393,7 +1393,7 @@
 1	Kogo	kogo	ADJ	ADJ	_	2	amod	_	_
 2	muailmas	muailmu	NOUN	NOUN	Case=Ine|Number=Sing	4	obl	_	_
 3	arbaituksii	arbaitus	NOUN	NOUN	Case=Par|Number=Plur	4	obj	_	_
-4	pietäh	pidiä	VERB	VERB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	pietäh	pidiä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	hyvin	hyvin	ADV	ADV	_	6	advmod	_	_
 6	muinazennu	muinaine	ADJ	ADJ	Case=Ess|Number=Sing	8	amod	_	_
 7	kanzanrunohuon	kanzanrunohuz	NOUN	X	Case=Gen|Number=Sing	8	nmod:poss	_	_
@@ -1465,7 +1465,7 @@
 # text = Illal ei suannuh arbailla – varattih Arbaituksen akkua, ku häi tulou yön aigua da ähkiäy bokkah.
 1	Illal	illal	ADV	ADV	_	4	advmod	_	PronType=Temp
 2	ei	ei	AUX	AUX	Number=Sing|Person=3|Polarity=Neg	3	aux	_	_
-3	suannuh	suaha	AUX	AUX	Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	suannuh	suaha	VERB	VERB	Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	arbailla	arbailla	VERB	VERB	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	xcomp	_	_
 5	–	–	PUNCT	PUNCT	_	6	punct	_	_
 6	varattih	varata	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
