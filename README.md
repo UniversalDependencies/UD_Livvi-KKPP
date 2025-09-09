@@ -99,6 +99,7 @@ If you use the treebank, please cite the UDW 2019 paper:
 Data available since: UD v2.5
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: nonfiction news web
 Lemmas: manual native
 UPOS: manual native
