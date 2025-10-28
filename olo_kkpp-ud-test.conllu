@@ -711,7 +711,7 @@
 9	saaraa	saari	NOUN	NOUN	Case=Par|Number=Sing	10	obj	_	_
 10	sanuo	sanuo	VERB	VERB	VerbForm=Inf	2	parataxis	_	_
 11	kolmet	kolme	NUM	NUM	Case=Nom|Number=Plur|NumType=Card	12	nummod	_	_
-12	suutkat	šuutku	NOUN	NOUN	Case=Acc|Number=Plur	10	obj	_	SpaceAfter=No
+12	suutkat	šuutku	NOUN	NOUN	Case=Acc|Number=Plur	10	obl	_	SpaceAfter=No
 13	,	,	PUNCT	PUNCT	_	18	punct	_	_
 14	sil	se	PRON	PRON	Case=Ade|Number=Sing|PronType=Dem	18	obl	_	_
 15	minä	minä	PRON	PRON	Case=Nom|Number=Sing|PronType=Prs	18	nsubj	_	_
