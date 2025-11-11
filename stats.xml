@@ -111,13 +111,13 @@
     <dep name="flat:name">11</dep>
     <dep name="goeswith">3</dep>
     <dep name="mark">19</dep>
-    <dep name="nmod">13</dep>
+    <dep name="nmod">14</dep>
     <dep name="nmod:poss">88</dep>
-    <dep name="nsubj">118</dep>
+    <dep name="nsubj">119</dep>
     <dep name="nsubj:cop">26</dep>
     <dep name="nummod">18</dep>
-    <dep name="obj">99</dep>
-    <dep name="obl">151</dep>
+    <dep name="obj">96</dep>
+    <dep name="obl">152</dep>
     <dep name="orphan">15</dep>
     <dep name="parataxis">47</dep>
     <dep name="punct">350</dep>
