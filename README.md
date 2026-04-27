@@ -90,6 +90,8 @@ If you use the treebank, please cite the UDW 2019 paper:
 
 # Changelog
 
+* 2026-04-29 v2.18
+  * Correction of two obl parents; incorrectly linked to obj instead of root. (rueter)
 * 2019-11-15 v2.5
   * Initial release in Universal Dependencies.
 
