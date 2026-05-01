@@ -143,7 +143,7 @@
 # text = Murginan jälles kai matkuniekat lähtiettih Kotkatjärvele, sigäläzes kul’tuurutalois ezityttih jo kaksi joukkuo.
 1	Murginan	murgin	NOUN	NOUN	Case=Acc|Number=Sing	5	obl	_	_
 2	jälles	jälles	ADV	ADV	_	1	case	_	_
-3	kai	kai	PRON	PRON	Case=Gen|Number=Plur	4	nmod:poss	_	_
+3	kai	kai	PRON	PRON	Case=Gen|Number=Plur|PronType=Tot	4	nmod:poss	_	_
 4	matkuniekat	matkuniekku	NOUN	NOUN	Case=Nom|Number=Plur	5	nsubj	_	_
 5	lähtiettih	lähtie	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 6	Kotkatjärvele	Kotkajärvi	PROPN	PROPN	Case=All|Number=Sing	5	obl	_	SpaceAfter=No
@@ -500,8 +500,8 @@
 
 # sent_id = vepkar-2316.8
 # text = Paiči sidä “Tverinkarjalazien ystävät” avvutetah piästiä ilmoih karjalankielisty kirjalližuttu da opastuskniigua.
-1	Paiči	paiči	ADV	ADV	_	7	advmod	_	_
-2	sidä	sidä	PRON	PRON	Case=Abe|Number=Plur	1	fixed	_	_
+1	Paiči	paiči	ADV	ADV	ExtPos=ADV	7	advmod	_	_
+2	sidä	sidä	PRON	PRON	Case=Abe|Number=Plur|PronType=Dem	1	fixed	_	_
 3	“	“	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
 4	Tverinkarjalazien	Tverinkarjalaine	NOUN	NOUN	Case=Gen|Number=Plur	5	nmod:poss	_	_
 5	ystävät	ystävy	NOUN	NOUN	Case=Nom|Number=Plur	7	nsubj	_	SpaceAfter=No
@@ -585,7 +585,7 @@
 3	Karjalan	Karjal	PROPN	PROPN	Case=Gen|Number=Sing	4	nmod:poss	_	_
 4	dieloloi	dielo	NOUN	NOUN	Case=Par|Number=Plur	5	obj	_	_
 5	pietäh	pidiä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	silmäl	silmy	NOUN	NOUN	Case=Abl|Number=Sing	5	fixed	_	_
+6	silmäl	silmy	NOUN	NOUN	Case=Abl|Number=Sing	5	compound:prt	_	_
 7	Suomes	Suomi	PROPN	PROPN	Case=Ine|Number=Sing	5	obl	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
 
@@ -659,7 +659,7 @@
 # sent_id = vepkar-2316.18
 # text = – Iče olen karjalaine Kiihtelysvuaraspäi.
 1	–	–	PUNCT	PUNCT	_	4	punct	_	_
-2	Iče	iče	PRON	PRON	Case=Nom|Reflex=Yes	4	nsubj:cop	_	_
+2	Iče	iče	PRON	PRON	Case=Nom|PronType=Prs|Reflex=Yes	4	nsubj:cop	_	_
 3	olen	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 4	karjalaine	karjalaine	ADJ	ADJ	Case=Nom|Number=Sing	0	root	_	_
 5	Kiihtelysvuaraspäi	Kiihtelysvuara	PROPN	PROPN	Case=Ela|Number=Sing	4	obl	_	SpaceAfter=No
@@ -693,7 +693,7 @@
 # sent_id = vepkar-1559.2
 # text = Oli sie enne saari.
 1	Oli	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	_
-2	sie	se	PRON	PRON	Case=Ade|Number=Plur	4	obl	_	_
+2	sie	se	PRON	PRON	Case=Ade|PronType=Dem	4	obl	_	_
 3	enne	enne	ADV	ADV	_	4	advmod	_	PronType=Temp
 4	saari	saari	NOUN	NOUN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
@@ -704,7 +704,7 @@
 2	sanoi	sanuo	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	PUNCT	_	10	punct	_	_
 4	"	"	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
-5	Ken	Ken	PRON	PRON	Case=Nom|Number=Sing	10	nsubj	_	PronType=Interr
+5	Ken	Ken	PRON	PRON	Case=Nom|Number=Sing|PronType=Int	10	nsubj	_	PronType=Interr
 6	voinoo	voija	AUX	AUX	Mood=Pot|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	aux	_	_
 7	uuzi	uuzi	ADJ	ADJ	Case=Acc|Number=Sing	5	amod	_	_
 8	uvvel	uuzi	ADJ	ADJ	Case=Ade|Number=Sing	9	amod	_	_
@@ -731,7 +731,7 @@
 6	sanojaa	sanoja	NOUN	NOUN	Case=Par|Number=Sing	2	obj	_	SpaceAfter=No
 7	,	,	PUNCT	PUNCT	_	11	punct	_	_
 8	ni	ni	ADV	ADV	_	11	advmod	_	_
-9	kus	kus	PRON	PRON	Case=Ine|Number=Plur	11	obl	_	_
+9	kus	kus	PRON	PRON	Case=Ine|Number=Plur|PronType=Int	11	obl	_	_
 10	ei	ei	AUX	AUX	Number=Sing|Person=3|Polarity=Neg	11	aux	_	_
 11	löytä	löyteä	VERB	VERB	Connegative=Yes|Tense=Pres	2	ccomp	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
@@ -818,14 +818,14 @@
 12	istui	istuo	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	parataxis	_	_
 13	sarvel	sarvi	NOUN	NOUN	Case=Ade|Number=Sing	12	obl	_	SpaceAfter=No
 14	,	,	PUNCT	PUNCT	_	15	punct	_	_
-15	toine	toine	PRON	PRON	Case=Nom|Number=Sing	12	conj	_	_
-16	toizel	toine	PRON	PRON	Case=Ade|Number=Sing	15	orphan	_	SpaceAfter=No
+15	toine	toine	PRON	PRON	Case=Nom|Number=Sing|PronType=Ind	12	conj	_	_
+16	toizel	toine	PRON	PRON	Case=Ade|Number=Sing|PronType=Ind	15	orphan	_	SpaceAfter=No
 17	;	;	PUNCT	PUNCT	_	18	punct	_	_
 18	torvittih	torvie	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	parataxis	_	SpaceAfter=No
 19	,	,	PUNCT	PUNCT	_	24	punct	_	_
 20	ga	ga	CCONJ	CCONJ	_	21	cc	_	_
-21	toine	toine	PRON	PRON	Case=Nom|Number=Sing	24	nsubj	_	_
-22	toizen	toine	PRON	PRON	Case=Acc|Number=Sing	24	obj	_	_
+21	toine	toine	PRON	PRON	Case=Nom|Number=Sing|PronType=Ind	24	nsubj	_	_
+22	toizen	toine	PRON	PRON	Case=Acc|Number=Sing|PronType=Ind	24	obj	_	_
 23	ei	ei	AUX	AUX	Number=Sing|Person=3|Polarity=Neg	24	aux	_	_
 24	kuulluh	kuulla	VERB	VERB	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	18	conj	_	_
 25	torvindaa	torvinda	NOUN	X	Case=Par|Number=Sing	24	obl	_	SpaceAfter=No
@@ -873,7 +873,7 @@
 6	kyzyy	kyzyö	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	SpaceAfter=No
 7	:	:	PUNCT	PUNCT	_	11	punct	_	_
 8	"	"	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
-9	Midäbo	mi	PRON	PRON	Case=Par|Number=Sing	11	obj	_	PronType=Interr
+9	Midäbo	mi	PRON	PRON	Case=Par|Number=Sing|PronType=Int	11	obj	_	PronType=Interr
 10	bobuli	bobuli	NOUN	NOUN	Case=Nom|Number=Sing	11	nsubj	_	_
 11	saneli	sanella	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	parataxis	_	SpaceAfter=No
 12	?	?	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
@@ -881,7 +881,7 @@
 
 # sent_id = vepkar-1559.12
 # text = Midä se bobuli-briha sanoi, sidäi net saldatat sanottih saaril.
-1	Midä	mi	PRON	PRON	Case=Par|Number=Sing	4	obj	_	PronType=Interr
+1	Midä	mi	PRON	PRON	Case=Par|Number=Sing|PronType=Int	4	obj	_	PronType=Interr
 2	se	se	PRON	PRON	Case=Nom|Number=Sing|PronType=Dem	3	det	_	_
 3	bobuli-briha	bobuli-briha	NOUN	NOUN	Case=Nom|Number=Sing	4	nsubj	_	_
 4	sanoi	sanuo	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
@@ -969,14 +969,14 @@
 12	istui	istuo	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
 13	sarvel	sarvi	NOUN	NOUN	Case=Ade|Number=Sing	12	obl	_	SpaceAfter=No
 14	,	,	PUNCT	PUNCT	_	15	punct	_	_
-15	toine	toine	PRON	PRON	Case=Nom|Number=Sing	12	conj	_	_
-16	toizel	toine	PRON	PRON	Case=Ade|Number=Sing	15	orphan	_	SpaceAfter=No
+15	toine	toine	PRON	PRON	Case=Nom|Number=Sing|PronType=Ind	12	conj	_	_
+16	toizel	toine	PRON	PRON	Case=Ade|Number=Sing|PronType=Ind	15	orphan	_	SpaceAfter=No
 17	;	;	PUNCT	PUNCT	_	18	punct	_	_
 18	torvittih	torvie	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	_	SpaceAfter=No
 19	,	,	PUNCT	PUNCT	_	24	punct	_	_
 20	ga	ga	SCONJ	SCONJ	_	24	mark	_	_
-21	toine	toine	PRON	PRON	Case=Nom|Number=Sing	24	nsubj	_	_
-22	toizen	toine	PRON	PRON	Case=Acc|Number=Sing	24	obl	_	_
+21	toine	toine	PRON	PRON	Case=Nom|Number=Sing|PronType=Ind	24	nsubj	_	_
+22	toizen	toine	PRON	PRON	Case=Acc|Number=Sing|PronType=Ind	24	obl	_	_
 23	ei	ei	AUX	AUX	Number=Sing|Person=3|Polarity=Neg	24	aux	_	_
 24	kuulluh	kuulla	VERB	VERB	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	18	acl:relcl	_	_
 25	torvindaa	torvinda	NOUN	X	Case=Par|Number=Sing	24	obj	_	SpaceAfter=No
@@ -1076,7 +1076,7 @@
 3	kyzyy	kyzyö	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 4	:	:	PUNCT	PUNCT	_	8	punct	_	_
 5	"	"	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
-6	Midä	midä	PRON	PRON	Case=Par|Number=Sing	8	obj	_	_
+6	Midä	midä	PRON	PRON	Case=Par|Number=Sing|PronType=Int	8	obj	_	_
 7	briha	briha	NOUN	NOUN	Case=Nom|Number=Sing	8	nsubj	_	_
 8	sanoi	sanuo	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	SpaceAfter=No
 9	?	?	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
@@ -1089,7 +1089,7 @@
 3	:	:	PUNCT	PUNCT	_	2	punct	_	_
 4	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
 5	Ga	ga	INTJ	INTJ	_	7	discourse	_	_
-6	sidä	sidä	PRON	PRON	Case=Par|Number=Plur	7	orphan	_	_
+6	sidä	sidä	PRON	PRON	Case=Par|Number=Plur|PronType=Dem	7	orphan	_	_
 7	samastu	samaine	ADJ	ADJ	Case=Par|Number=Sing	2	parataxis	_	SpaceAfter=No
 8	"	"	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
@@ -1195,14 +1195,14 @@
 12	istui	istuo	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	parataxis	_	_
 13	sarvel	sarvi	NOUN	NOUN	Case=Ade|Number=Sing	12	obl	_	SpaceAfter=No
 14	,	,	PUNCT	PUNCT	_	15	punct	_	_
-15	toine	toine	PRON	PRON	Case=Nom|Number=Sing	11	conj	_	_
-16	toizel	toine	PRON	PRON	Case=Ade|Number=Sing	15	orphan	_	SpaceAfter=No
+15	toine	toine	PRON	PRON	Case=Nom|Number=Sing|PronType=Ind	11	conj	_	_
+16	toizel	toine	PRON	PRON	Case=Ade|Number=Sing|PronType=Ind	15	orphan	_	SpaceAfter=No
 17	;	;	PUNCT	PUNCT	_	18	punct	_	_
 18	torvittih	torvie	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	_	SpaceAfter=No
 19	,	,	PUNCT	PUNCT	_	24	punct	_	_
 20	ga	ga	CCONJ	CCONJ	_	21	cc	_	_
-21	toine	toine	PRON	PRON	Case=Nom|Number=Sing	24	nsubj	_	_
-22	toizen	toine	PRON	PRON	Case=Acc|Number=Sing	24	obl	_	_
+21	toine	toine	PRON	PRON	Case=Nom|Number=Sing|PronType=Ind	24	nsubj	_	_
+22	toizen	toine	PRON	PRON	Case=Acc|Number=Sing|PronType=Ind	24	obl	_	_
 23	ei	ei	AUX	AUX	Number=Sing|Person=3|Polarity=Neg	24	aux	_	_
 24	kuulluh	kuulla	VERB	X	Connegative=Yes	18	acl:relcl	_	_
 25	torvindaa	torvinda	NOUN	X	Case=Par|Number=Sing	24	obj	_	SpaceAfter=No
@@ -1300,7 +1300,7 @@
 1	Sit	sit	ADV	ADV	_	3	advmod	_	_
 2	saarilloo	saari	NOUN	X	Case=All|Number=Sing	3	obl	_	_
 3	mendih	mennä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-4	sinne	sinne	PRON	PRON	Case=All|Number=Sing	3	obl	_	SpaceAfter=No
+4	sinne	sinne	PRON	PRON	Case=All|Number=Sing|PronType=Dem	3	obl	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
 
 # sent_id = vepkar-1559.34
@@ -1503,7 +1503,7 @@
 17	,	,	PUNCT	PUNCT	_	22	punct	_	_
 18	kudamua	kudai	PRON	PRON	Case=Par|Number=Sing|PronType=Rel	22	obj	_	_
 19	häi	häi	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
-20	iče	iče	PRON	PRON	Case=Nom|Reflex=Yes	19	fixed	_	_
+20	iče	iče	PRON	PRON	Case=Nom|PronType=Prs|Reflex=Yes	19	nmod	_	_
 21	ei	ei	AUX	AUX	Number=Sing|Person=3|Polarity=Neg	22	aux	_	_
 22	musta	mustua	VERB	VERB	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl:relcl	_	SpaceAfter=No
 23	.	.	PUNCT	PUNCT	_	22	punct	_	SpaceAfter=No
@@ -1611,7 +1611,7 @@
 6	kerras	kerras	ADV	ADV	_	7	advmod	_	_
 7	arvata	arvata	VERB	VERB	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	11	punct	_	_
-9	mis	mi	PRON	PRON	Case=Ine|Number=Sing	11	obl	_	PronType=Interr
+9	mis	mi	PRON	PRON	Case=Ine|Number=Sing|PronType=Int	11	obl	_	PronType=Interr
 10	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_
 11	pagin	pagin	NOUN	NOUN	Case=Nom|Number=Sing	7	ccomp	_	_
 12	vahnas	vahnu	ADJ	ADJ	Case=Ine|Number=Sing	13	amod	_	_
@@ -1624,7 +1624,7 @@
 19	sanottu	sanuo	VERB	VERB	Connegative=Yes|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	_
 20	kohti	kohti	ADV	ADV	_	19	advmod	_	_
 21	da	da	CCONJ	CCONJ	_	22	cc	_	_
-22	sen	sen	ADV	ADV	_	24	advmod	_	_
+22	sen	sen	ADV	ADV	ExtPos=ADV	24	advmod	_	_
 23	ližäkse	ližäkse	ADV	ADV	_	22	fixed	_	_
 24	käytettih	käyttiä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	19	conj	_	_
 25	erilazii	erilaine	ADJ	ADJ	Case=Par|Number=Plur	26	amod	_	_
@@ -1643,7 +1643,7 @@
 
 # sent_id = vepkar-1805.17
 # text = Sen ližäkse lapset hyvin tiettih kai vešit, kudamat kuvattih tekstois, gu net kuuluttih jogapäiväzeh elaigah.
-1	Sen	sen	ADV	ADV	_	5	advmod	_	_
+1	Sen	sen	ADV	ADV	ExtPos=ADV	5	advmod	_	_
 2	ližäkse	ližäkse	ADV	ADV	_	1	fixed	_	_
 3	lapset	lapsi	NOUN	NOUN	Case=Nom|Number=Plur	5	nsubj	_	_
 4	hyvin	hyvin	ADV	ADV	_	5	advmod	_	_
@@ -1672,7 +1672,7 @@
 6	semmozii	semmoine	ADJ	ADJ	Case=Par|Number=Plur	7	amod	_	_
 7	piirdehii	piirde	NOUN	X	Case=Par|Number=Plur	5	obl	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	10	punct	_	_
-9	mit	mi	PRON	PRON	Case=Nom|Number=Plur	10	nsubj	_	PronType=Interr
+9	mit	mi	PRON	PRON	Case=Nom|Number=Plur|PronType=Int	10	nsubj	_	PronType=Interr
 10	avvutetah	avvuttua	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
 11	ellendämäh	ellendiä	VERB	VERB	Case=Ill|VerbForm=Inf	10	xcomp	_	Deriv=Ma
 12	da	da	CCONJ	CCONJ	_	13	cc	_	_
@@ -1707,7 +1707,7 @@
 
 # sent_id = vepkar-1805.20
 # text = Sen ližäkse suuri vuitti tekstois kuvuau luonduo: vihmua, tuleniškuu, pyhäil’l’anjyryy, lundu, päivästy, kuudu.
-1	Sen	sen	ADV	ADV	_	6	advmod	_	_
+1	Sen	sen	ADV	ADV	ExtPos=ADV	6	advmod	_	_
 2	ližäkse	ližäkse	ADV	ADV	_	1	fixed	_	_
 3	suuri	suuri	ADJ	ADJ	Case=Nom|Number=Sing	4	amod	_	_
 4	vuitti	vuitti	NOUN	NOUN	Case=Nom|Number=Sing	6	nsubj	_	_
@@ -1763,7 +1763,7 @@
 10	rukki	rukki	NOUN	NOUN	Case=Nom|Number=Sing	4	conj	_	_
 11	da	da	CCONJ	CCONJ	_	12	cc	_	_
 12	äijy	äijy	ADV	ADV	_	14	advmod	_	_
-13	midä	mi	PRON	PRON	Case=Par|Number=Sing	14	nmod	_	PronType=Interr
+13	midä	mi	PRON	PRON	Case=Par|Number=Sing|PronType=Int	14	nmod	_	PronType=Interr
 14	muudu	muu	ADJ	ADJ	Case=Par|Number=Sing	4	conj	_	SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No
 
