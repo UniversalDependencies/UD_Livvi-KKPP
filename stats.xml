@@ -31,7 +31,7 @@
     <tag name="X">10</tag><!-- _, Karelija, d’engaa, eto, mi, piduhus, pučči, – -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="53">
+  <feats unique="56">
     <feat name="AdpType" value="Post" upos="ADP">3</feat><!-- mugah, periä, sijah -->
     <feat name="Case" value="Abe" upos="PRON">3</feat><!-- Minun, sidä, sinun -->
     <feat name="Case" value="Abl" upos="ADJ,NOUN,PRON">3</feat><!-- Hänel, kanzallizil, silmäl -->
@@ -55,12 +55,13 @@
     <feat name="Connegative" value="Yes" upos="AUX,VERB">23</feat><!-- kuulluh, ole, arbailla, ehtinyh, kylmetty, löytä, musta, nähty, olis, olla -->
     <feat name="Degree" value="Cmp" upos="ADJ">1</feat><!-- kylmyverizembi -->
     <feat name="Degree" value="Pos" upos="VERB">1</feat><!-- sanottuu -->
+    <feat name="ExtPos" value="ADV" upos="ADV">4</feat><!-- sen, Paiči -->
     <feat name="Foreign" value="Yes" upos="X">4</feat><!-- Karelija, eto, mi, – -->
     <feat name="Mood" value="Cnd" upos="AUX">2</feat><!-- olis, voidas -->
     <feat name="Mood" value="Imp" upos="VERB">3</feat><!-- Avua, Kuunelkaa, mennä -->
-    <feat name="Mood" value="Ind" upos="AUX,NOUN,VERB">246</feat><!-- oli, on, sanoi, olen, pietäh, rodieu, sanoo, kuulimo, kuulittogo, sanottih -->
+    <feat name="Mood" value="Ind" upos="AUX,NOUN,VERB">247</feat><!-- oli, on, sanoi, olen, pietäh, rodieu, sanoo, kuulimo, kuulittogo, sanottih -->
     <feat name="Mood" value="Pot" upos="AUX,VERB">2</feat><!-- unohtannet, voinoo -->
-    <feat name="Number" value="Plur" upos="ADJ,AUX,CCONJ,NOUN,NUM,PRON,PROPN,VERB,X">285</feat><!-- vojennoit, tverinkarjalazien, pietäh, arbaituksii, festivualin, kuulimo, kuulittogo, sanottih, tiezimö, tiezittö -->
+    <feat name="Number" value="Plur" upos="ADJ,AUX,CCONJ,NOUN,NUM,PRON,PROPN,VERB,X">284</feat><!-- vojennoit, tverinkarjalazien, pietäh, arbaituksii, festivualin, kuulimo, kuulittogo, sanottih, tiezimö, tiezittö -->
     <feat name="Number" value="Sing" upos="ADJ,ADP,AUX,NOUN,NUM,PRON,PROPN,VERB,X">698</feat><!-- oli, on, häi, ei, Tverin, toine, tämän, virstaa, saari, sanoi -->
     <feat name="Number[psor]" value="Sing" upos="ADJ,NOUN">2</feat><!-- dovarišalles, enimilleh -->
     <feat name="NumType" value="Card" upos="NUM">13</feat><!-- kolme, kaksi, seičče, kolmet, yksi -->
@@ -71,10 +72,12 @@
     <feat name="Person" value="3" upos="AUX,CCONJ,NOUN,PRON,VERB">237</feat><!-- oli, on, ei, häi, sanoi, pietäh, rodieu, sanoo, sanottih, voibi -->
     <feat name="Person[psor]" value="3" upos="ADJ,NOUN">2</feat><!-- dovarišalles, enimilleh -->
     <feat name="Polarity" value="Neg" upos="AUX,CCONJ,PRON">18</feat><!-- ei, emmogo, En, eigo, nimidä -->
-    <feat name="PronType" value="Dem" upos="PRON">25</feat><!-- tämän, se, tämä, net, Niilöin, Tädä, niidy, nämmis, sen, sil -->
-    <feat name="PronType" value="Ind" upos="PRON">2</feat><!-- mondu, nimidä -->
-    <feat name="PronType" value="Prs" upos="PRON">40</feat><!-- häi, minun, minul, hyö, minä, Heil, Hänel, heidy, händy, hänele -->
+    <feat name="PronType" value="Dem" upos="PRON">31</feat><!-- tämän, se, tämä, net, sidä, Niilöin, Tädä, niidy, nämmis, sen -->
+    <feat name="PronType" value="Ind" upos="PRON">14</feat><!-- toine, toizel, toizen, mondu, nimidä -->
+    <feat name="PronType" value="Int" upos="PRON">10</feat><!-- midä, Midäbo, ken, kus, mis, mit -->
+    <feat name="PronType" value="Prs" upos="PRON">42</feat><!-- häi, minun, minul, hyö, iče, minä, Heil, Hänel, heidy, händy -->
     <feat name="PronType" value="Rel" upos="PRON">4</feat><!-- kudamat, kudamua, kuduan, kuduat -->
+    <feat name="PronType" value="Tot" upos="PRON">1</feat><!-- kai -->
     <feat name="Reflex" value="Yes" upos="PRON,VERB">3</feat><!-- iče, sevättihes -->
     <feat name="Tense" value="Past" upos="AUX,VERB">127</feat><!-- oli, sanoi, sanottih, istui, kraassi, kuulittogo, kuulluh, lähtiettih, saneltih, tiezittö -->
     <feat name="Tense" value="Pres" upos="AUX,NOUN,VERB">123</feat><!-- on, olen, pietäh, rodieu, sanoo, voibi, kyzyy, ole, ollah, sanou -->
@@ -87,7 +90,7 @@
     <feat name="Voice" value="Pass" upos="VERB">5</feat><!-- tundiettu, kuunneltes, mainittuloin, sanottuu -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="37">
+  <deps unique="38">
     <dep name="acl">2</dep>
     <dep name="acl:relcl">12</dep>
     <dep name="advcl">19</dep>
@@ -100,18 +103,19 @@
     <dep name="ccomp">13</dep>
     <dep name="compound">3</dep>
     <dep name="compound:nn">3</dep>
+    <dep name="compound:prt">1</dep>
     <dep name="conj">117</dep>
     <dep name="cop">31</dep>
     <dep name="cop:own">3</dep>
     <dep name="csubj:cop">1</dep>
     <dep name="det">12</dep>
     <dep name="discourse">4</dep>
-    <dep name="fixed">6</dep>
+    <dep name="fixed">4</dep>
     <dep name="flat:foreign">3</dep>
     <dep name="flat:name">11</dep>
     <dep name="goeswith">3</dep>
     <dep name="mark">19</dep>
-    <dep name="nmod">14</dep>
+    <dep name="nmod">15</dep>
     <dep name="nmod:poss">88</dep>
     <dep name="nsubj">119</dep>
     <dep name="nsubj:cop">26</dep>
