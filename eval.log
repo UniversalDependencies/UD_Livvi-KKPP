@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Livvi-KKPP:
-commit e86a4bda2be922885dcb0b6271bca5e9adc9697c
-Merge: 5d716bf e5a6850
+commit 7f373c919d56417cb2e4d266c2540e4e630f9db1
+Merge: c1565fc 90cc47d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'olo_kkpp'
@@ -19,31 +19,14 @@ Split: Did not find at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 14 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 1060 out of 1632 total words have one or more features.
+Features: 1064 out of 1632 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 3 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang olo --max-err=10 UD_Livvi-KKPP/olo_kkpp-ud-test.conllu
-[Line 124 Sent vepkar-1820.9]: [L3 Warning verbform-fin-without-mood] Finite verb 'ezityi' lacks the 'Mood' feature
-[Line 146 Sent vepkar-1820.11]: [L3 Warning pron-det-without-prontype] The word 'kai' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 194 Sent vepkar-1820.14]: [L3 Warning obl-should-be-nmod] The parent (node [8] 'kniigua') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 233 Sent vepkar-1820.16]: [L3 Warning obl-should-be-nmod] The parent (node [11] 'Kajahuš') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 503 Sent vepkar-2316.8]: [L3 Warning fixed-without-extpos] Fixed expression 'Paiči sidä' does not have the 'ExtPos' feature
-[Line 504 Sent vepkar-2316.8]: [L3 Warning pron-det-without-prontype] The word 'sidä' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 587 Sent vepkar-2316.13]: [L3 Warning fixed-without-extpos] Fixed expression 'pietäh silmäl' does not have the 'ExtPos' feature
-[Line 662 Sent vepkar-2316.18]: [L3 Warning pron-det-without-prontype] The word 'Iče' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 696 Sent vepkar-1559.2]: [L3 Warning pron-det-without-prontype] The word 'sie' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 707 Sent vepkar-1559.3]: [L3 Warning pron-det-without-prontype] The word 'Ken' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Warnings: 36
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang olo --max-err=10 UD_Livvi-KKPP/olo_kkpp-ud-train.conllu
-[Line 159 Sent LM_brat_2018:12]: [L3 Warning pron-det-without-prontype] The word 'sit' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 161 Sent LM_brat_2018:12]: [L3 Warning pron-det-without-prontype] The word 'ken' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 172 Sent LM_brat_2018:13]: [L3 Warning pron-det-without-prontype] The word 'Midäbo' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 273 Sent LM_brat_2018:19]: [L3 Warning pron-det-without-prontype] The word 'se' is tagged 'PRON' but it lacks the 'PronType' feature
-Warnings: 4
 *** PASSED ***
 Validity: 1
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
